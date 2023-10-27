@@ -10,5 +10,20 @@ module.exports = {
   plugins: ['react-refresh'],
   rules: {
     'react-refresh/only-export-components': 'warn',
+    'prefer-const': 'off',
+    semi: [2, "always"],
+    indent: [0, 4],
+    "space-before-function-paren": [
+      "error",
+      { anonymous: "always", named: "never" }
+    ],
+    "multiline-ternary": ["off"],
+    quotes: [
+      "error",
+      "double",
+      {
+        allowTemplateLiterals: true
+      }
+    ]
   },
 }

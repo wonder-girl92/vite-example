@@ -1,7 +1,7 @@
-import React from 'react';
+import React from "react";
 
 function Message(props) {
-    const name = 'Razet';
+    const name = "Razet";
     if (name)
         return (
         <h1>hello {name}</h1> );
